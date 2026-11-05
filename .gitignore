@@ -1,0 +1,17 @@
+# VS Code 개인 환경 설정 제외
+.vscode/
+
+# 파이썬 캐시 및 임시 파일 제외
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# 가상환경 폴더 제외
+.venv/
+env/
+venv/
+
+# 윈도우 시스템 파일 제외
+desktop.ini
+Thumbs.db
